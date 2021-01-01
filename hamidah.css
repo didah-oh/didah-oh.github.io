@@ -1,0 +1,51 @@
+
+* {
+    font-family: 'Rubik', 'Inter', 'Calibri', sans-serif;
+    color: #3D4351;
+    background-color: #EAEAEC;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+ 
+}
+
+h1 {
+    color: #3D4351;
+    font-size: 3.25em;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    font-weight: 800;
+}
+
+p {
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: center;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.links {
+    justify-content: center;
+    text-align: center;
+}
+
+.clicklink {
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+  }
+  
+ 
