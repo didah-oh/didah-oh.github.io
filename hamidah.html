@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Hamidah Oderinwale's portfolio site!">
+        <meta name="keywords" content="Hamidah, personal site, github, marketing, web development, writing">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="hamidah.css" rel"stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;800&display=swap" rel="stylesheet">
+               
+    </head>
+    <body>                 
+        <div class="intro" id="intro">
+            <h1 style="font-weight:800;">Hey, my name is Hamidah 👋🏿 </h1>
+        </div>
+        <div class="aboutme" id="aboutme">
+            <h2 style="font-weight: 800; text-align: center;">About Me</h2>
+            <p style=" font-weight: 400; text-align: justify"> I am Hamidah Oderinwale from 🇨🇦 and I love working on projects that combine my love for web development, writing, and social entrepreneurship. My drive to learn new things has allowed me to embark on a variety of adventures.
+                I  run a tutoring business, helping students from Grade 1-8 succeed in their classes! 
+                I work to educate young people about the beauty of the engineering fields through my organization Engineering Shadowers. 
+                As a writer I share my thoughts on Medium, and provide stellar copywriting services to businesses and individuals. 
+               And, as a budding web developer I am currently trying to build my skills and create websites like this one!</p>
+            <center><a class="clicklink" href="file:///Users/rafiatoderinwale/Downloads/Resume%20-%20Hamidah%20Oderinwale%20%20(1).pdf">Click for Resume</a></center>
+        <div class="writing" id="writing">
+            <h2 style="text-align: center;">My Writing</h2>
+            <h4 style="text-align: center;">Take a look at some of my most recent posts on Medium.</h4>
+            <p style="text-align: justify;">On Medium, I write about a variety of topics ranging from self-improvement to ethical investing</p>
+            <center><a class="clicklink" href="https://medium.com/@moyosore.h">My Medium Page</a></center>
+        </div>
+        <div class="tutoring" id="tutoring">
+            <h2 style="text-align: center;">Tutoring</h2>
+            <p style="text-align: justify;"> I have always enjoyed school, and after learning some tips and tricks along the way, I wanted to help other students succeed in their studies. If you are interested in my services please contact me at oderinwaleh@gmail.com, (647)-803-9400, or complete the form below.</p>
+            <p>I charge $20/hour (CAD) and specialize in English 📒 and Math➗</p> 
+            
+    <iframe
+    id="JotFormIFrame-203656859445064"
+    title="Form"
+    onload="window.parent.scrollTo(0,0)"
+    allowtransparency="true"
+    allowfullscreen="true"
+    allow="geolocation; microphone; camera"
+    src="https://form.jotform.com/203656859445064"
+    frameborder="0"
+    style="
+    min-width: 100%;
+    height:539px;
+    border:none;"
+    scrolling="no"
+  >
+  </iframe>
+  <script type="text/javascript">
+    var ifr = document.getElementById("JotFormIFrame-203656859445064");
+    if (ifr) {
+      var src = ifr.src;
+      var iframeParams = [];
+      if (window.location.href && window.location.href.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+      }
+      if (src && src.indexOf("?") > -1) {
+        iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+        src = src.substr(0, src.indexOf("?"))
+      }
+      iframeParams.push("isIframeEmbed=1");
+      ifr.src = src + "?" + iframeParams.join('&');
+    }
+    window.handleIFrameMessage = function(e) {
+      if (typeof e.data === 'object') { return; }
+      var args = e.data.split(":");
+      if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+      if (!iframe) { return; }
+      switch (args[0]) {
+        case "scrollIntoView":
+          iframe.scrollIntoView();
+          break;
+        case "setHeight":
+          iframe.style.height = args[1] + "px";
+          break;
+        case "collapseErrorPage":
+          if (iframe.clientHeight > window.innerHeight) {
+            iframe.style.height = window.innerHeight + "px";
+          }
+          break;
+        case "reloadPage":
+          window.location.reload();
+          break;
+        case "loadScript":
+          var src = args[1];
+          if (args.length > 3) {
+              src = args[1] + ':' + args[2];
+          }
+          var script = document.createElement('script');
+          script.src = src;
+          script.type = 'text/javascript';
+          document.body.appendChild(script);
+          break;
+        case "exitFullscreen":
+          if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+          else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+          else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+          else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+          else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+          break;
+      }
+      var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+      if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+        var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+        iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+      }
+    };
+    if (window.addEventListener) {
+      window.addEventListener("message", handleIFrameMessage, false);
+    } else if (window.attachEvent) {
+      window.attachEvent("onmessage", handleIFrameMessage);
+    }
+    </script>
+        </div>
+        <div class="contsoc" id="contsoc">
+            <h2 style="text-align: center;">Contact Me + Socials</h2>
+            <div class="links">
+            <a href="mailto: oderinwaleh@gmail.com"target="_blank">Email</a>
+            <a href="https://github.com/didah-oh"target="_blank">GitHub</a>
+            <a href="https://medium.com/@moyosore.h"target="_blank">Medium</a>
+        </div>
+        </div>
+    </body>
+</html>
