@@ -1,8 +1,8 @@
 
 * {
     font-family: 'Rubik', 'Inter', 'Calibri', sans-serif;
-    color: #3D4351;
-    background-color: #EAEAEC;
+    color: #F2F2F2;
+    background-color: #262322;
     padding-left: 12.5%;
     padding-right: 12.5%;
     padding-top: 1%;
@@ -11,7 +11,7 @@
 }
 
 h1 {
-    color: #3D4351;
+    color: #F2F2F2;
     font-size: 3.25em;
     justify-content: center;
     text-align: center;
