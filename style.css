@@ -48,3 +48,9 @@ body {
     background: #ccc;
   }
 
+.banner {
+    background-size: cover;
+    background-position: center;
+    background-image: url(pexels-neo-2653362.jpg);
+    transform: translate3d(0px, 0px, 0px);
+}
