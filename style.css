@@ -55,9 +55,8 @@ body {
     transform: translate3d(0px, 0px, 0px);
     display: table-cell;
     height: 100%;
-    left: 0;
     pointer-events: none;
     position: absolute;
-    top: 0;
     width: 100%;
+    margin 0;
 }
