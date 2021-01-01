@@ -53,6 +53,11 @@ body {
     background-position: center;
     background-image: url(pexels-neo-2653362.jpg);
     transform: translate3d(0px, 0px, 0px);
-    height: 2vh;
+    display: table-cell;
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
     width: 100%;
 }
