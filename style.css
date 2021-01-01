@@ -31,6 +31,8 @@ p {
 .links {
     justify-content: center;
     text-align: center;
+    display: inline;
+    list-style-type: none;
 }
 
 .clicklink {
