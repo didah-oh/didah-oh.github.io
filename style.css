@@ -1,21 +1,22 @@
 * {
     font-family: 'Rubik', 'Inter', 'Calibri', sans-serif;
-    color: #F2F2F2;
-    background-color: #262322;
-    padding-left: 12.5%;
-    padding-right: 12.5%;
+    color: #FFFFFF;
+    background-color: #000022;
+    padding-left: 14%;
+    padding-right: 14%;
     padding-top: 1%;
     padding-bottom: 1%;
  
 }
 
 h1 {
-    color: #F2F2F2;
-    font-size: 3.25em;
+    color: #E8F8A0;
+    font-size: 10vmin;
     justify-content: center;
     text-align: center;
     overflow: hidden;
     font-weight: 800;
+    padding: 2%;
 }
 
 p {
@@ -23,7 +24,6 @@ p {
     font-weight: 400;
     text-align: center;
     font-weight: 400;
-    font-style: italic;
     margin:0;
     padding:0;
 }
@@ -54,4 +54,19 @@ body {
 ul {
     list-style-type: none;
     display: inline;
+}
+
+@media screen and (max-width : 320px)
+{
+  h1
+  {
+    font: 3em;
+  }
+}
+@media screen and (max-width : 1204px)
+{
+  h1
+  {
+    font: 5em;
+  }
 }
