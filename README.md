@@ -1,3 +1,3 @@
-# didah-oh.github.io
+# hamidahoderinwale/hamidahoderinwale.github.io
 This is my personal/portfolio site.
-Here is a link: https://didah-oh.github.io :)
+Here is a link: https://hamidahoderinwale.github.io :)
